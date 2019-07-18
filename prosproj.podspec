@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.ios.deployment_target   = "9.0"
   spec.source          = { :git => "https://github.com/Mgap/ProsProj.git", :tag => spec.version.to_s }
-  spec.source_files  = 'Classes/*.{swift,h}'
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = 'ProsProj/*.{swift,h}'
+
   spec.swift_version = "4.2"
 end

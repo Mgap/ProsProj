@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Edison" => "edisonjnz31@gmail.com" }
   spec.platform     = :ios
   spec.ios.deployment_target   = "9.0"
-  spec.source          = { :git => "https://github.com/Mgap/ProsProj.git", :tag => "spec.version.to_s" }
+  spec.source          = { :git => "https://github.com/Mgap/ProsProj.git", :tag => "spec.version" }
   spec.source_files  = "ProsProj/*.{swift}"
   spec.exclude_files = "Classes/Exclude"
   spec.swift_version = "4.2"

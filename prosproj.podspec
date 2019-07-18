@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.description  = "Testing SDK Version"
 
   spec.homepage     = "www.mareco.app"
-  spec.license      = "{ :type => "MIT", :file => "LICENSE" }"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
   spec.author       = { "Edison" => "edisonjnz31@gmail.com" }
   spec.platform     = :ios

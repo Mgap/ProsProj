@@ -12,7 +12,8 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
 
   spec.author       = { "Edison" => "edisonjnz31@gmail.com" }
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios
+  spec.ios.deployment_target   = "9.0"
   spec.source          = { :git => "https://github.com/Mgap/ProsProj.git", :tag => "1.0.0" }
   spec.source_files  = "ProsProj"
   spec.exclude_files = "Classes/Exclude"

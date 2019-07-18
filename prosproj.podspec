@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
   spec.author       = { "Edison" => "edisonjnz31@gmail.com" }
-  spec.platform     = :ios,'7.0'
+  spec.platform     = :ios,'9.0'
 
   spec.source          = { :git => "https://github.com/Mgap/ProsProj.git", :tag => spec.version.to_s }
   spec.source_files  = 'ProsProj/*.{swift}'

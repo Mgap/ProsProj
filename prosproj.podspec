@@ -12,12 +12,10 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT (example)"
 
   spec.author             = { "Edison" => "edisonjnz31@gmail.com" }
-   spec.platform     = :ios
-   spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/Mgap/ProsProj.git", :tag => "1.0.0" }
 
   spec.source_files  = "ProsProj"
   spec.exclude_files = "Classes/Exclude"
-
-s.swift_version = "4.2"
+  s.swift_version = "4.2"
 end

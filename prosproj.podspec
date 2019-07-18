@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "This is testing SDK "
   spec.description  = "Testing SDK Version , for Demo tesing app SDK payment"
 
-  spec.homepage     = "www.mareco.app"
+  spec.homepage     = "https://github.com/Mgap/ProsProj"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
   spec.author       = { "Edison" => "edisonjnz31@gmail.com" }

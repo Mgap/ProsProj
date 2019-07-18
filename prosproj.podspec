@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "prosproj"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "This is testing SDK "
   spec.description  = "Testing SDK Version , for Demo tesing app SDK payment"
 

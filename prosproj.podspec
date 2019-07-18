@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
 
   spec.source          = { :git => "https://github.com/Mgap/ProsProj.git", :tag => spec.version.to_s }
   spec.source_files  = 'ProsProj/*.{swift}'
-  s.resource_bundles = {
+  spec.resource_bundles = {
     'ProsProj' => ['ProsProj/*.{storyboard,xib,xcassets,json,imageset,png}']
   }
   spec.swift_version = "4.2"

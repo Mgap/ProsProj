@@ -18,4 +18,5 @@ Pod::Spec.new do |spec|
   spec.source_files  = "ProsProj"
   spec.exclude_files = "Classes/Exclude"
   s.swift_version = "4.2"
+  s.version = "1.0.0"
 end

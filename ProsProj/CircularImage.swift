@@ -52,3 +52,14 @@ public class ProsProj {
     }
     
 }
+
+public class Utility {
+    
+    public static func getHomeVC() -> UIViewController {
+        
+        let storyboard = UIStoryboard.init(name: "MainController", bundle: Bundle(for: self))
+        let homeVC = storyboard.instantiateViewController(withIdentifier: "MainViewController")
+        return homeVC
+    }
+    
+}

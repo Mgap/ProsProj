@@ -29,3 +29,26 @@ public class RoundedImageView: UIImageView {
     }
     
 }
+
+
+public class MainViewController: UIViewController {
+    
+    override public func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    
+}
+
+public class ProsProj {
+    
+    public static func performSegueToFrameworkVC(caller: UIViewController) {
+        let podBundle = Bundle(for: MainViewController.self)
+        let bundleURL = podBundle.url(forResource: "ProsProj", withExtension: "bundle")
+        let bundle = Bundle(url: bundleURL!)!
+        let storyboard = UIStoryboard(name: "MainController", bundle: bundle)
+        let vc = storyboard.instantiateInitialViewController()!
+        caller.present(vc, animated: true, completion: nil)
+    }
+    
+}
